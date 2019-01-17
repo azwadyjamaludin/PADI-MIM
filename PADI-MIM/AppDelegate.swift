@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PADI-MIM
 //
-//  Created by Azi Azwady Jamaludin on 17/01/2019.
-//  Copyright © 2019 Azi Azwady Jamaludin. All rights reserved.
+//  Created by Azi Azwady Jamaludin on 12/09/2017.
+//  Copyright © 2017 UTM. All rights reserved.
 //
 
 import UIKit
