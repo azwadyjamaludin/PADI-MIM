@@ -9,10 +9,11 @@
 import UIKit
 
 class InitVC: MainVC {
-
+    var jsonMgr = JSONMgr()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
@@ -64,6 +65,8 @@ class InitVC: MainVC {
     credAlert.addAction(confirmAction)
     self.present(credAlert, animated: true, completion: nil)
     }
+    
+    
     /*
     // MARK: - Navigation
 

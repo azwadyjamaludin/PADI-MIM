@@ -20,15 +20,25 @@
 			<key>Key</key>
 			<string>url_preference</string>
 			<key>DefaultValue</key>
-			<string>https://</string>
+			<string>macbookpro.my/WLS</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>
-			<string>URL</string>
+			<string>Alphabet</string>
 			<key>AutocapitalizationType</key>
 			<string>None</string>
 			<key>AutocorrectionType</key>
 			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Offline mode</string>
+			<key>Key</key>
+			<string>off</string>
+			<key>DefaultValue</key>
+			<false/>
 		</dict>
 	</array>
 </dict>

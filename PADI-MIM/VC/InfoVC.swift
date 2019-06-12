@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InfoVC: MainVC {
+class InfoVC: MainVC_2 {
 
     override func viewDidLoad() {
         super.viewDidLoad()

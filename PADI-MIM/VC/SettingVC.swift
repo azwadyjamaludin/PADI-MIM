@@ -91,8 +91,6 @@ extension SettingVC: CLLocationManagerDelegate {
             print("Location access was restricted.")
         case .denied:
             print("User denied access to location.")
-            
-                //googleMapsView.isHidden = false
         case .notDetermined:
             print("Location status not determined.")
         case .authorizedAlways: fallthrough

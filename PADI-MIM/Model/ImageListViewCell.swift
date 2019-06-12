@@ -10,8 +10,8 @@ import UIKit
 
 class ImageListViewCell: UITableViewCell {
 
-    @IBOutlet weak var medImageSmall: UIImageView!
-    @IBOutlet weak var medImageID: UILabel!
+    @IBOutlet weak var pnttext: UILabel!
+    @IBOutlet weak var pidtext: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

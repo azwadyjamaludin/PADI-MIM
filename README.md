@@ -6,4 +6,8 @@ Built in framework:
 
 Cocopods:
 -Alamofire
+-SwiftyJSON
+
+C++ library:
+-imebra C++
 

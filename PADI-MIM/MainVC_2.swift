@@ -12,7 +12,7 @@ class MainVC_2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "colorful_neon")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "abstract_pattern")!)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
