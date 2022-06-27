@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC6DA8C2869992400626EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DA8B2869992400626EBB /* AppDelegate.swift */; };
+		3BC6DA8E2869992400626EBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DA8D2869992400626EBB /* SceneDelegate.swift */; };
+		3BC6DA902869992400626EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DA8F2869992400626EBB /* ViewController.swift */; };
+		3BC6DA932869992400626EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC6DA912869992400626EBB /* Main.storyboard */; };
+		3BC6DA952869992500626EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC6DA942869992500626EBB /* Assets.xcassets */; };
+		3BC6DA982869992500626EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC6DA962869992500626EBB /* LaunchScreen.storyboard */; };
+		3BC6DAA32869992500626EBB /* PADI_MIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DAA22869992500626EBB /* PADI_MIMTests.swift */; };
+		3BC6DAAD2869992500626EBB /* PADI_MIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DAAC2869992500626EBB /* PADI_MIMUITests.swift */; };
+		3BC6DAAF2869992500626EBB /* PADI_MIMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC6DAAE2869992500626EBB /* PADI_MIMUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BC6DA9F2869992500626EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC6DA802869992400626EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC6DA872869992400626EBB;
+			remoteInfo = "PADI-MIM";
+		};
+		3BC6DAA92869992500626EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC6DA802869992400626EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC6DA872869992400626EBB;
+			remoteInfo = "PADI-MIM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BC6DA882869992400626EBB /* PADI-MIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PADI-MIM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC6DA8B2869992400626EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BC6DA8D2869992400626EBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3BC6DA8F2869992400626EBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BC6DA922869992400626EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BC6DA942869992500626EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BC6DA972869992500626EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BC6DA992869992500626EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC6DA9E2869992500626EBB /* PADI-MIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PADI-MIMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC6DAA22869992500626EBB /* PADI_MIMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PADI_MIMTests.swift; sourceTree = "<group>"; };
+		3BC6DAA82869992500626EBB /* PADI-MIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PADI-MIMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC6DAAC2869992500626EBB /* PADI_MIMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PADI_MIMUITests.swift; sourceTree = "<group>"; };
+		3BC6DAAE2869992500626EBB /* PADI_MIMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PADI_MIMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC6DA852869992400626EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC6DA9B2869992500626EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC6DAA52869992500626EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC6DA7F2869992400626EBB = {
+			isa = PBXGroup;
+			children = (
+				3BC6DA8A2869992400626EBB /* PADI-MIM */,
+				3BC6DAA12869992500626EBB /* PADI-MIMTests */,
+				3BC6DAAB2869992500626EBB /* PADI-MIMUITests */,
+				3BC6DA892869992400626EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC6DA892869992400626EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6DA882869992400626EBB /* PADI-MIM.app */,
+				3BC6DA9E2869992500626EBB /* PADI-MIMTests.xctest */,
+				3BC6DAA82869992500626EBB /* PADI-MIMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC6DA8A2869992400626EBB /* PADI-MIM */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6DA8B2869992400626EBB /* AppDelegate.swift */,
+				3BC6DA8D2869992400626EBB /* SceneDelegate.swift */,
+				3BC6DA8F2869992400626EBB /* ViewController.swift */,
+				3BC6DA912869992400626EBB /* Main.storyboard */,
+				3BC6DA942869992500626EBB /* Assets.xcassets */,
+				3BC6DA962869992500626EBB /* LaunchScreen.storyboard */,
+				3BC6DA992869992500626EBB /* Info.plist */,
+			);
+			path = "PADI-MIM";
+			sourceTree = "<group>";
+		};
+		3BC6DAA12869992500626EBB /* PADI-MIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6DAA22869992500626EBB /* PADI_MIMTests.swift */,
+			);
+			path = "PADI-MIMTests";
+			sourceTree = "<group>";
+		};
+		3BC6DAAB2869992500626EBB /* PADI-MIMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6DAAC2869992500626EBB /* PADI_MIMUITests.swift */,
+				3BC6DAAE2869992500626EBB /* PADI_MIMUITestsLaunchTests.swift */,
+			);
+			path = "PADI-MIMUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC6DA872869992400626EBB /* PADI-MIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC6DAB22869992500626EBB /* Build configuration list for PBXNativeTarget "PADI-MIM" */;
+			buildPhases = (
+				3BC6DA842869992400626EBB /* Sources */,
+				3BC6DA852869992400626EBB /* Frameworks */,
+				3BC6DA862869992400626EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PADI-MIM";
+			productName = "PADI-MIM";
+			productReference = 3BC6DA882869992400626EBB /* PADI-MIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BC6DA9D2869992500626EBB /* PADI-MIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC6DAB52869992500626EBB /* Build configuration list for PBXNativeTarget "PADI-MIMTests" */;
+			buildPhases = (
+				3BC6DA9A2869992500626EBB /* Sources */,
+				3BC6DA9B2869992500626EBB /* Frameworks */,
+				3BC6DA9C2869992500626EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC6DAA02869992500626EBB /* PBXTargetDependency */,
+			);
+			name = "PADI-MIMTests";
+			productName = "PADI-MIMTests";
+			productReference = 3BC6DA9E2869992500626EBB /* PADI-MIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BC6DAA72869992500626EBB /* PADI-MIMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC6DAB82869992500626EBB /* Build configuration list for PBXNativeTarget "PADI-MIMUITests" */;
+			buildPhases = (
+				3BC6DAA42869992500626EBB /* Sources */,
+				3BC6DAA52869992500626EBB /* Frameworks */,
+				3BC6DAA62869992500626EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC6DAAA2869992500626EBB /* PBXTargetDependency */,
+			);
+			name = "PADI-MIMUITests";
+			productName = "PADI-MIMUITests";
+			productReference = 3BC6DAA82869992500626EBB /* PADI-MIMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC6DA802869992400626EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3BC6DA872869992400626EBB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					3BC6DA9D2869992500626EBB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3BC6DA872869992400626EBB;
+					};
+					3BC6DAA72869992500626EBB = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 3BC6DA872869992400626EBB;
+					};
+				};
+			};
+			buildConfigurationList = 3BC6DA832869992400626EBB /* Build configuration list for PBXProject "PADI-MIM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BC6DA7F2869992400626EBB;
+			productRefGroup = 3BC6DA892869992400626EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC6DA872869992400626EBB /* PADI-MIM */,
+				3BC6DA9D2869992500626EBB /* PADI-MIMTests */,
+				3BC6DAA72869992500626EBB /* PADI-MIMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BC6DA862869992400626EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC6DA982869992500626EBB /* LaunchScreen.storyboard in Resources */,
+				3BC6DA952869992500626EBB /* Assets.xcassets in Resources */,
+				3BC6DA932869992400626EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC6DA9C2869992500626EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC6DAA62869992500626EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC6DA842869992400626EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC6DA902869992400626EBB /* ViewController.swift in Sources */,
+				3BC6DA8C2869992400626EBB /* AppDelegate.swift in Sources */,
+				3BC6DA8E2869992400626EBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC6DA9A2869992500626EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC6DAA32869992500626EBB /* PADI_MIMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC6DAA42869992500626EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC6DAAF2869992500626EBB /* PADI_MIMUITestsLaunchTests.swift in Sources */,
+				3BC6DAAD2869992500626EBB /* PADI_MIMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BC6DAA02869992500626EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC6DA872869992400626EBB /* PADI-MIM */;
+			targetProxy = 3BC6DA9F2869992500626EBB /* PBXContainerItemProxy */;
+		};
+		3BC6DAAA2869992500626EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC6DA872869992400626EBB /* PADI-MIM */;
+			targetProxy = 3BC6DAA92869992500626EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BC6DA912869992400626EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC6DA922869992400626EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BC6DA962869992500626EBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC6DA972869992500626EBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BC6DAB02869992500626EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BC6DAB12869992500626EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BC6DAB32869992500626EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TS8668A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PADI-MIM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "azwadyInc.PADI-MIM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BC6DAB42869992500626EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TS8668A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PADI-MIM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "azwadyInc.PADI-MIM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BC6DAB62869992500626EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TS8668A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "azwadyInc.PADI-MIMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PADI-MIM.app/PADI-MIM";
+			};
+			name = Debug;
+		};
+		3BC6DAB72869992500626EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TS8668A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "azwadyInc.PADI-MIMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PADI-MIM.app/PADI-MIM";
+			};
+			name = Release;
+		};
+		3BC6DAB92869992500626EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TS8668A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "azwadyInc.PADI-MIMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PADI-MIM";
+			};
+			name = Debug;
+		};
+		3BC6DABA2869992500626EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43TS8668A3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "azwadyInc.PADI-MIMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PADI-MIM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC6DA832869992400626EBB /* Build configuration list for PBXProject "PADI-MIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC6DAB02869992500626EBB /* Debug */,
+				3BC6DAB12869992500626EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC6DAB22869992500626EBB /* Build configuration list for PBXNativeTarget "PADI-MIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC6DAB32869992500626EBB /* Debug */,
+				3BC6DAB42869992500626EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC6DAB52869992500626EBB /* Build configuration list for PBXNativeTarget "PADI-MIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC6DAB62869992500626EBB /* Debug */,
+				3BC6DAB72869992500626EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC6DAB82869992500626EBB /* Build configuration list for PBXNativeTarget "PADI-MIMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC6DAB92869992500626EBB /* Debug */,
+				3BC6DABA2869992500626EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BC6DA802869992400626EBB /* Project object */;
+}
