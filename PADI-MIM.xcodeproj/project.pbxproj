@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1E4EE32869A308008D6543 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E4EE02869A307008D6543 /* Data */; };
+		3B1E4EE42869A308008D6543 /* VC in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E4EE12869A307008D6543 /* VC */; };
+		3B1E4EE52869A308008D6543 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 3B1E4EE22869A308008D6543 /* Model */; };
 		3B62341D25A1CFB700B5AA6E /* Pods_PADI_MIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B62341C25A1CFB700B5AA6E /* Pods_PADI_MIM.framework */; };
 		3B62341E25A1CFB700B5AA6E /* Pods_PADI_MIM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B62341C25A1CFB700B5AA6E /* Pods_PADI_MIM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3B62342125A1D2A800B5AA6E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B62342025A1D2A800B5AA6E /* Alamofire.framework */; };
@@ -16,23 +19,7 @@
 		7B3E901C21F0382A00C1C8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E901B21F0382A00C1C8BA /* AppDelegate.swift */; };
 		7B3E902621F0382C00C1C8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3E902421F0382C00C1C8BA /* LaunchScreen.storyboard */; };
 		7B4402A821F043E5009E156A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B4402A721F043E4009E156A /* Assets.xcassets */; };
-		7B4402CB21F046CD009E156A /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402C321F046CC009E156A /* SettingVC.swift */; };
-		7B4402CC21F046CD009E156A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402C421F046CC009E156A /* LoginVC.swift */; };
-		7B4402CF21F046CD009E156A /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402C721F046CD009E156A /* InfoVC.swift */; };
-		7B4402D021F046CD009E156A /* InitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402C821F046CD009E156A /* InitVC.swift */; };
-		7B4402D121F046CD009E156A /* JSONMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402C921F046CD009E156A /* JSONMgr.swift */; };
-		7B4402D221F046CD009E156A /* ImageListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402CA21F046CD009E156A /* ImageListViewCell.swift */; };
-		7B4402D421F04717009E156A /* drawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402D321F04717009E156A /* drawView.swift */; };
-		7B4402D921F05950009E156A /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402D721F05950009E156A /* Artwork.swift */; };
-		7B4402DA21F05950009E156A /* ArtworkViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4402D821F05950009E156A /* ArtworkViews.swift */; };
 		7B466D6F228D358D0088D023 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B466D6E228D358D0088D023 /* Utils.swift */; };
-		7B6AC8D722797A24006B6BBA /* DicomTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AC8D622797A24006B6BBA /* DicomTag.swift */; };
-		7BB587F62281D0CC00CE2CBD /* DicomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB587F52281D0CC00CE2CBD /* DicomImage.swift */; };
-		7BB587FA2281DDC300CE2CBD /* ImageListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB587F92281DDC300CE2CBD /* ImageListVC.swift */; };
-		7BEEAC98227C380F00ACF53E /* ImageListL2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEAC97227C380F00ACF53E /* ImageListL2VC.swift */; };
-		7BEEAC9A227C7A8300ACF53E /* ImageListL2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEAC99227C7A8300ACF53E /* ImageListL2ViewCell.swift */; };
-		7BEEAC9C227CC2A400ACF53E /* DicomTagL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEAC9B227CC2A400ACF53E /* DicomTagL2.swift */; };
-		7BF4507F2297920B004AB786 /* DicomDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF4507E2297920B004AB786 /* DicomDownload.swift */; };
 		7BF954F421F03C8D00538ADF /* MainVC_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF954EC21F03C8D00538ADF /* MainVC_2.swift */; };
 		7BF954F521F03C8D00538ADF /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF954ED21F03C8D00538ADF /* MainVC.swift */; };
 		7BF954F821F03C8D00538ADF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BF954F021F03C8D00538ADF /* Settings.bundle */; };
@@ -66,6 +53,9 @@
 
 /* Begin PBXFileReference section */
 		0C595DF55F5ACA8486F5B3A6 /* Pods-PADI-MIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADI-MIM.debug.xcconfig"; path = "Target Support Files/Pods-PADI-MIM/Pods-PADI-MIM.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1E4EE02869A307008D6543 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		3B1E4EE12869A307008D6543 /* VC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VC; sourceTree = "<group>"; };
+		3B1E4EE22869A308008D6543 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 		3B62341C25A1CFB700B5AA6E /* Pods_PADI_MIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_PADI_MIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B62342025A1D2A800B5AA6E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B62342325A1D2AF00B5AA6E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,23 +64,7 @@
 		7B3E902521F0382C00C1C8BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B3E902721F0382C00C1C8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B4402A721F043E4009E156A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7B4402C321F046CC009E156A /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
-		7B4402C421F046CC009E156A /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		7B4402C721F046CD009E156A /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
-		7B4402C821F046CD009E156A /* InitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitVC.swift; sourceTree = "<group>"; };
-		7B4402C921F046CD009E156A /* JSONMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONMgr.swift; sourceTree = "<group>"; };
-		7B4402CA21F046CD009E156A /* ImageListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageListViewCell.swift; sourceTree = "<group>"; };
-		7B4402D321F04717009E156A /* drawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawView.swift; sourceTree = "<group>"; };
-		7B4402D721F05950009E156A /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
-		7B4402D821F05950009E156A /* ArtworkViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtworkViews.swift; sourceTree = "<group>"; };
 		7B466D6E228D358D0088D023 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		7B6AC8D622797A24006B6BBA /* DicomTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicomTag.swift; sourceTree = "<group>"; };
-		7BB587F52281D0CC00CE2CBD /* DicomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicomImage.swift; sourceTree = "<group>"; };
-		7BB587F92281DDC300CE2CBD /* ImageListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListVC.swift; sourceTree = "<group>"; };
-		7BEEAC97227C380F00ACF53E /* ImageListL2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListL2VC.swift; sourceTree = "<group>"; };
-		7BEEAC99227C7A8300ACF53E /* ImageListL2ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListL2ViewCell.swift; sourceTree = "<group>"; };
-		7BEEAC9B227CC2A400ACF53E /* DicomTagL2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicomTagL2.swift; sourceTree = "<group>"; };
-		7BF4507E2297920B004AB786 /* DicomDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicomDownload.swift; sourceTree = "<group>"; };
 		7BF954EC21F03C8D00538ADF /* MainVC_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC_2.swift; sourceTree = "<group>"; };
 		7BF954ED21F03C8D00538ADF /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		7BF954F021F03C8D00538ADF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -133,9 +107,9 @@
 		7B3E901A21F0382A00C1C8BA /* PADI-MIM */ = {
 			isa = PBXGroup;
 			children = (
-				7B6AC8D322796E7E006B6BBA /* Data */,
-				7B4402D621F047C1009E156A /* Model */,
-				7B4402D521F0476A009E156A /* VC */,
+				3B1E4EE22869A308008D6543 /* Model */,
+				3B1E4EE02869A307008D6543 /* Data */,
+				3B1E4EE12869A307008D6543 /* VC */,
 				7B4402A721F043E4009E156A /* Assets.xcassets */,
 				7BF954F021F03C8D00538ADF /* Settings.bundle */,
 				7B3E901B21F0382A00C1C8BA /* AppDelegate.swift */,
@@ -147,43 +121,6 @@
 				7BF954F921F03CEB00538ADF /* PADI-MIM.storyboard */,
 			);
 			path = "PADI-MIM";
-			sourceTree = "<group>";
-		};
-		7B4402D521F0476A009E156A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				7B4402C721F046CD009E156A /* InfoVC.swift */,
-				7B4402C821F046CD009E156A /* InitVC.swift */,
-				7B4402C421F046CC009E156A /* LoginVC.swift */,
-				7B4402C321F046CC009E156A /* SettingVC.swift */,
-				7BEEAC97227C380F00ACF53E /* ImageListL2VC.swift */,
-				7BB587F92281DDC300CE2CBD /* ImageListVC.swift */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		7B4402D621F047C1009E156A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7B4402D721F05950009E156A /* Artwork.swift */,
-				7B4402D821F05950009E156A /* ArtworkViews.swift */,
-				7B4402D321F04717009E156A /* drawView.swift */,
-				7B4402CA21F046CD009E156A /* ImageListViewCell.swift */,
-				7B4402C921F046CD009E156A /* JSONMgr.swift */,
-				7BEEAC99227C7A8300ACF53E /* ImageListL2ViewCell.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		7B6AC8D322796E7E006B6BBA /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				7B6AC8D622797A24006B6BBA /* DicomTag.swift */,
-				7BEEAC9B227CC2A400ACF53E /* DicomTagL2.swift */,
-				7BB587F52281D0CC00CE2CBD /* DicomImage.swift */,
-				7BF4507E2297920B004AB786 /* DicomDownload.swift */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 		C782030EACF2284CDF4E39BA /* Pods */ = {
@@ -270,8 +207,11 @@
 			files = (
 				7BF954FB21F03CEB00538ADF /* PADI-MIM.storyboard in Resources */,
 				7B3E902621F0382C00C1C8BA /* LaunchScreen.storyboard in Resources */,
+				3B1E4EE32869A308008D6543 /* Data in Resources */,
 				7B4402A821F043E5009E156A /* Assets.xcassets in Resources */,
+				3B1E4EE52869A308008D6543 /* Model in Resources */,
 				7BF954F821F03C8D00538ADF /* Settings.bundle in Resources */,
+				3B1E4EE42869A308008D6543 /* VC in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,25 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF954F521F03C8D00538ADF /* MainVC.swift in Sources */,
-				7B4402D221F046CD009E156A /* ImageListViewCell.swift in Sources */,
-				7BF4507F2297920B004AB786 /* DicomDownload.swift in Sources */,
-				7B4402D021F046CD009E156A /* InitVC.swift in Sources */,
-				7BEEAC9A227C7A8300ACF53E /* ImageListL2ViewCell.swift in Sources */,
-				7BEEAC98227C380F00ACF53E /* ImageListL2VC.swift in Sources */,
-				7BEEAC9C227CC2A400ACF53E /* DicomTagL2.swift in Sources */,
-				7B4402CB21F046CD009E156A /* SettingVC.swift in Sources */,
 				7B3E901C21F0382A00C1C8BA /* AppDelegate.swift in Sources */,
-				7B4402D421F04717009E156A /* drawView.swift in Sources */,
-				7BB587F62281D0CC00CE2CBD /* DicomImage.swift in Sources */,
-				7B4402D921F05950009E156A /* Artwork.swift in Sources */,
-				7B4402CF21F046CD009E156A /* InfoVC.swift in Sources */,
-				7B4402D121F046CD009E156A /* JSONMgr.swift in Sources */,
-				7B6AC8D722797A24006B6BBA /* DicomTag.swift in Sources */,
-				7BB587FA2281DDC300CE2CBD /* ImageListVC.swift in Sources */,
-				7B4402DA21F05950009E156A /* ArtworkViews.swift in Sources */,
 				7BF954F421F03C8D00538ADF /* MainVC_2.swift in Sources */,
 				7B466D6F228D358D0088D023 /* Utils.swift in Sources */,
-				7B4402CC21F046CD009E156A /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
